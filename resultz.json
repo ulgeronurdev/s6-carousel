@@ -1,0 +1,49 @@
+{
+  "stats": "9 passed, 2 failed out of 11",
+  "tests": [
+    {
+      "name": "reactstrap ve bootstrap paketleri kurulmuş mu?",
+      "state": "pass"
+    },
+    {
+      "name": "App.jsx'e bootstrap css'i dokümantasyondaki gibi import edilmiş mi?",
+      "state": "pass"
+    },
+    {
+      "name": "MyCarousel.jsx'de data import edilmiş mi?",
+      "state": "pass"
+    },
+    {
+      "name": "MyCarousel.jsx'de reactstrap Carousel componenti kullanılmış mı?",
+      "state": "pass"
+    },
+    {
+      "name": "MyCarousel.jsx'de reactstrap CarouselCaption componenti kullanılmış mı?",
+      "state": "pass"
+    },
+    {
+      "name": "MyCarousel.jsx'de reactstrap CarouselIndicators componenti kullanılmış mı?",
+      "state": "pass"
+    },
+    {
+      "name": "MyCarousel.jsx'de prev ve next tıklamaları için reactstrap CarouselControl componenti kullanılmış mı?",
+      "state": "pass"
+    },
+    {
+      "name": "App.jsx'de MyCarousel componenti kullanılmış",
+      "state": "pass"
+    },
+    {
+      "name": "İleri-geri butonları ve aşağıdaki slide sayısı butonları doğru sayıda render ediliyor.",
+      "state": "pass"
+    },
+    {
+      "name": "Sayfa açıldığında verinin ilk elemanı görüntüleniyor mu?",
+      "state": "fail"
+    },
+    {
+      "name": "Sonraki butonuna tıklandığında doğru eleman görünüyor mu?",
+      "state": "fail"
+    }
+  ]
+}

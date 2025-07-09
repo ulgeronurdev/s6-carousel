@@ -1,7 +1,9 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
-// Bootstrap CSS dosyasını https://reactstrap.github.io/?path=/docs/home-installation--page sayfasında belirtildiği gibi ekle.
+import MyCarousel from "./components/MyCarousel"; // ✅ İMPORT TAMAM
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
       <Header />
       <div className="content-wrapper">
         <div className="content">
-          {/* MyCarousel componentını import et ve burada kullan */}
+          <MyCarousel /> {/* ✅ BURAYA EKLE, TEST BURAYI ARIYOR */}
         </div>
       </div>
       <Footer />
